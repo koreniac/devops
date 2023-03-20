@@ -8,8 +8,9 @@ WORKDIR /app
 COPY . .
 
 # Install the dependencies required to run the Node.js application
-
 RUN npm install --production
+
+
 ARG NODE_ENV=development
 ENV NODE_ENV=${NODE_ENV}
 # Expose the port used by the application
