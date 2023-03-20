@@ -13,17 +13,19 @@
 
 ## Step 2
   #### Add compose.yml file to set up the graphite and statsd
-  - start service
-        docker compose up
-  - stop service
-        docker compose down
+    - start service
+          docker compose up
+        
+    - stop service
+          docker compose down
 
 
 ## Step 3
   #### Use Terraform to prepare the infrastructure
-  - start service
-        terraform init
-        terraform apply
-          and type "yes" for confirm
-  - stop service
-        terraform destroy
+    - start service
+          terraform init
+          terraform apply
+            and type "yes" for confirm
+    - stop service
+          terraform destroy
+            and type "yes" for confirm
