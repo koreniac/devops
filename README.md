@@ -21,3 +21,9 @@
 
 ## Step 3
   #### Use Terraform to prepare the infrastructure
+  - start service
+        terraform init
+        terraform apply
+          and type "yes" for confirm
+  - stop service
+        terraform destroy
