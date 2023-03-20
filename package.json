@@ -1,14 +1,16 @@
 {
-  "name": "test-devops",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"PASS\" && exit 0"
-  },
-  "author": "",
-  "license": "UNLICENSED",
-  "dependencies": {
-    "lynx": "^0.2.0"
-  }
+    "name": "test-devops",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"PASS\" && exit 0",
+        "start-dev": "node  index.js",
+        "start": "echo \"Production\" "
+    },
+    "author": "",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "lynx": "^0.2.0"
+    }
 }
